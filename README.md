@@ -1,42 +1,45 @@
-## Project Name
+# Express API Starter
 
-This is a little description about your project.
+Includes API Server utilities:
 
-**Tech Stack:** MongoDB, Express.js, React.js, Node.js, Typescript
+* [morgan](https://www.npmjs.com/package/morgan)
+  * HTTP request logger middleware for node.js
+* [helmet](https://www.npmjs.com/package/helmet)
+  * Helmet helps you secure your Express apps by setting various HTTP headers. It's not a silver bullet, but it can help!
+* [dotenv](https://www.npmjs.com/package/dotenv)
+  * Dotenv is a zero-dependency module that loads environment variables from a `.env` file into `process.env`
 
-**Contributors**: [Hatchways](https://github.com/hatchways) (replace)
+Development utilities:
 
----
+* [nodemon](https://www.npmjs.com/package/nodemon)
+  * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+* [eslint](https://www.npmjs.com/package/eslint)
+  * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
+* [mocha](https://www.npmjs.com/package/mocha)
+  * ☕️ Simple, flexible, fun JavaScript test framework for Node.js & The Browser ☕️
+* [supertest](https://www.npmjs.com/package/supertest)
+  * HTTP assertions made easy via superagent.
 
-### Getting Started
+## Setup
 
-1. Clone or download repository
+```
+npm install
+```
 
----
+## Lint
 
-## Server
+```
+npm run lint
+```
 
-1. Go into the server directory `cd server`
-2. Run `npm install` to install packages
-3. Create your environment variable (.env) file
-4. Run `npm run dev` to start the server
+## Test
 
----
+```
+npm run test
+```
 
-## Client
+## Development
 
-1. Go into the client directory `cd client`
-2. Run `npm install` to install packages
-3. Run `npm start` to start the client side
-
----
-
-### Demo
-
-1. Registration. Users will be able to create a new account using their email and password
-
-![Signup Demo](demo/images/signup.png)
-
-2. Dashboard. Here is a description about what a user can expect to see
-
-![Dashboard](demo/images/dashboard.png)
+```
+npm run dev
+```
