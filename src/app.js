@@ -15,6 +15,8 @@ app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
+console.log("dummy log");
+
 app.get('/', (req, res) => {
   res.json({
     message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄'
